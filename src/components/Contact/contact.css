@@ -1,5 +1,87 @@
 .contact {
-    min-height: calc(100vh - 100px);
-    background-color: darkgreen;
+  background-color: #cddeff;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.contact h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 2.2px;
+}
+
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    /* border: 1px solid black; */
+    padding-bottom: 20px;
+    background-color: #676fa3;
+    padding: 20px;
+}
+
+.form-group {
     width: 100%;
+    /* border: 1px solid blue; */
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-box {
+    width: 20%;
+    /* border: 1px solid red; */
+    margin-right: 20px;
+    color: #eef2ff;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    text-align: right;
+}
+
+.form-input {
+    width: 70%;
+    height: 30px;
+    padding-left: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    background-color: #eef2ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.text-area {
+    resize: none;
+    width: 70%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.submit-btn-box {
+    width: 100%;
+    position: relative;
+    height: 50px;
+}
+
+.submit-btn {
+    position: absolute;
+    left: 26.5%;
+    bottom: 0;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #ff5959;
+    border: none;
+    color: #eef2ff;
+    letter-spacing: 1.5px;
+    font-weight: 600;
 }
