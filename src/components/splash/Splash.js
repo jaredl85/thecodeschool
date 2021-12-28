@@ -6,7 +6,7 @@ function Splash() {
       <div className="splash-container">
         <div className="splash">
           <div className="splash-content">
-            <h1>Learn how to code</h1>
+            <h1>Learn to build web <br /> experiences using</h1>
             <div className="splash-title">
               <div className="splash-title-wrapper">
                 <div className="splash-title-item">React</div>
