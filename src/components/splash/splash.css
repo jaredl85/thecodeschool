@@ -1,0 +1,107 @@
+.splash-container {
+  min-height: calc(100vh - 60px);
+  width: 100%;
+
+  background-image: url(../../images/splash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.splash {
+  min-height: calc(100vh - 60px);
+  background-color: rgba(0, 0, 0, 0.7);
+  /* position: relative; */
+}
+
+.splash-content {
+  opacity: 1;
+  color: #eef2ff;
+  z-index: 1000;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.splash-content h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.splash-title {
+  height: 65px;
+  overflow: hidden;
+  /* border: 1px solid red; */
+  text-align: center;
+  justify-content: center;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.splash-title-wrapper {
+  height: auto;
+  animation: move 30s ease-in-out infinite;
+  width: 100%;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-65px);
+  }
+  50% {
+    transform: translateY(-130px);
+  }
+  75% {
+    transform: translateY(-195px);
+  }
+  100% {
+    transform: translateY(-260px);
+  }
+}
+
+.splash-title-item {
+  height: 65px;
+  font-size: 55px;
+  font-weight: bolder;
+  color: #eef2ff;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  /* border: 1px solid blue; */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  /* padding-top: 10px;
+    padding-bottom: 20px; */
+}
+
+.splash-btn {
+  font-family: "Titillium Web", sans-serif;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  font-size: 30px;
+  border: 2px solid #ff5959;
+  color: #eef2ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  transition: 0.6s;
+}
+
+.splash-btn:hover {
+  background-color: #ff5959;
+  transition: 0.6s;
+}

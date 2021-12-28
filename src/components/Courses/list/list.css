@@ -1,0 +1,21 @@
+.list {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 50px;
+    font-size: 16px;
+    padding: 7px;
+    background-color: #252F6A;
+    color: #eef2ff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.list:hover {
+    background-color: #676fa3;
+    transition: 0.5s;
+}
+
+.list-active {
+    background-color: #252F6A;
+    color: #ff5959;
+}
