@@ -1,5 +1,10 @@
 .footer {
     height: 100px;
     width: 100%;
-    background-color: darkmagenta;
+    background-color: #252F6A;
+    border-top: 3px solid #676fa3;
+    color: #eef2ff;
+    text-align: center;
+    display: inline-block;
+    padding-top: 40px;
 }

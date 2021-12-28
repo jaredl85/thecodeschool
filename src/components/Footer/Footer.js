@@ -1,10 +1,11 @@
 import React from 'react';
 import './footer.css';
+import { AiOutlineCopyright } from 'react-icons/ai';
 
 function Footer() {
     return (
         <div className="footer">
-            This is FOOTER
+           <AiOutlineCopyright /> Jared Loveridge | 2021
         </div>
     )
 }
