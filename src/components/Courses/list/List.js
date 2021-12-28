@@ -1,9 +1,12 @@
 import React from 'react';
 import './list.css';
 
-export default function List({title}) {
+export default function List({id, title, active, setSelected}) {
     return (
-        <li className="list">
+        <li 
+        className={active ? "list list-active" : "list"}
+        onClick={() => setSelected(id)}
+        >
             {title}
         </li>
     )
