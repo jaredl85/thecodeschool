@@ -24,11 +24,7 @@
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-@media screen and (max-width: 700px){
-  .container-slider {
-    margin: 100px 10px 0;
-  }
-}
+
 .slide {
   width: 100%;
   height: 100%;
@@ -141,4 +137,82 @@ margin-left: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #252F6A;
+}
+
+@media screen and (max-width: 600px){
+
+.reviews h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2.2px;
+}
+
+.slide img {
+  border-radius: 500px;
+  width: 60%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  border: 2px solid #cddeff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.slider-icon-left {
+    margin-right: 35%;
+}
+
+.slider-icon-right {
+margin-left: 35%;
+}
+
+  .container-slider {
+    margin: 50px 10px 0;
+  }
+
+  .review-text {
+    font-size: 30px;
+    bottom: 2%;
+}
+
+.quote {
+    bottom: 5px;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%, 5px);
+    margin-top: 10px;
+}
+}
+
+@media screen and (max-width: 280px) {
+  .slide img {
+  width: 55%;
+  margin-bottom: 10px;
+}
+.slider-icon-left {
+    margin-right: 30%;
+}
+
+.slider-icon-right {
+margin-left: 30%;
+}
+
+  .review-text {
+    font-size: 25px;
+    bottom: 2%;
+    bottom: 10%;
+}
+
+.quote {
+    bottom: 5%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%, 5px);
+    margin-top: 10px;
+}
 }

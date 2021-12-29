@@ -40,7 +40,7 @@ export default function Courses() {
   }, [selected]);
 
   return (
-    <div className="courses">
+    <div className="courses" id="courses">
       <h2>Courses</h2>
       <ul>
         {lists.map((item) => (

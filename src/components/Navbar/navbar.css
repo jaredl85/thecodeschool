@@ -3,6 +3,8 @@
   width: 100%;
   background-color: #252f6a;
   border-bottom: 2px solid #676fa3;
+  /* position: fixed;
+  z-index: 1000; */
 }
 
 .logo {
@@ -19,12 +21,73 @@
   float: right;
   clear: both;
   margin-top: 20px;
-  
 }
 
-.nav li {
+.nav-item {
   color: #eef2ff;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   letter-spacing: 1.3px;
+}
+
+.nav-item:hover {
+  color: #ff5959;
+}
+
+.nav-btn {
+  position: absolute;
+  right: 15px;
+  padding: 2px 7px 0px 6px;
+  top: 10px;
+  color: #eef2ff;
+  background-color: #252f6a;
+  font-size: 1.4rem;
+  border: 2px solid #eef2ff;
+  display: none;
+  transition: 0.5s;
+}
+
+.nav-btn:hover {
+  color: #cddeff;
+  border: 2px solid #cddeff;
+  transition: 0.5s;
+}
+
+/*--- RESPONSIVE NAVBAR ---*/
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav {
+    flex-direction: column;
+    height: auto;
+    width: 104%;
+    margin: 0;
+    margin-left: -15px;
+    padding: 0;
+    float: left;
+    background-color: #252f6a;
+    /* padding-top: 55px; */
+    margin-top: -5px;
+  }
+  .nav-item {
+    border: 1px solid #676fa3;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+    display: block;
+  }
+
+  .nav-item:hover {
+    color: #ff5959;
+    background-color: chocolate;
+  }
+
+  .nav-btn {
+    display: block;
+  }
 }

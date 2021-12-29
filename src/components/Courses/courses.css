@@ -68,3 +68,15 @@ color: #eef2ff;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .courses h2 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+ul {
+    width: 100%;
+    flex-direction: column;
+}
+}

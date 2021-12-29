@@ -26,7 +26,7 @@ const dataSlider = [
   {
     id: 4,
     name: "Amelia Thomas",
-    review: "I gained the skills I needed!",
+    review: "I gained all of the skills I needed!",
     image: "/images/ameliathomas.jpg",
   },
 ];

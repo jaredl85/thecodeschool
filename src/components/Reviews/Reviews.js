@@ -26,8 +26,8 @@ export default function Reviews() {
   };
 
   return (
-    <div className="reviews">
-        <h2>Reviews</h2>
+    <div className="reviews" id="reviews">
+        <h2>Testimonials</h2>
       <div className="container-slider">
         {dataSlider.map((person, index) => {
           return (

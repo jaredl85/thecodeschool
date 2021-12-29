@@ -3,8 +3,8 @@ import "./contact.css";
 
 export default function Contact() {
   return (
-    <div className="contact">
-      <h2>Start Learning Now</h2>
+    <div className="contact" id="contact">
+      <h2>Start Learning</h2>
       <form className="contact-form">
         <div className="form-group">
           <div className="label-box">
