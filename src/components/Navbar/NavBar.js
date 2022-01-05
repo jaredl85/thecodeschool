@@ -29,7 +29,7 @@ export default function Nav() {
         <img src={logo} alt="logo" className="logo" />
       </Link>
 
-      {(toggleMenu || screenWidth >= 768) && (
+      {(toggleMenu || screenWidth > 768) && (
         <ul className="nav">
             <Link
               className="nav-item"

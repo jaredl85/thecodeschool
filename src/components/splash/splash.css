@@ -112,13 +112,20 @@
 
 /*--- RESPONSIVE DESIGN ---*/
 
+@media screen and (max-width: 1024px) {
+
+  .splash-content h1 {
+    font-size: 44px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .splash-content {
     z-index: 0;
   }
   
   .splash-content h1 {
-    font-size: 40px;
+    font-size: 38px;
     margin-bottom: 50px;
   }
 
@@ -135,6 +142,7 @@
     border-radius: 5px;
     transition: 0.6s;
     margin-bottom: 50px;
+    width: 65%;
   }
 }
 
@@ -142,5 +150,17 @@
 
   .splash {
     padding-bottom: 50px;
+    overflow-x: hidden;
+  }
+
+    .splash-content h1 {
+    font-size: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .splash-title-item {
+    font-size: 24px;
   }
 }
