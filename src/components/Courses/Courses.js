@@ -11,15 +11,15 @@ export default function Courses() {
   const lists = [
     {
       id: "featured",
-      title: "full-time courses",
+      title: "FULL-TIME",
     },
     {
       id: "part-time",
-      title: "part-time courses",
+      title: "PART-TIME",
     },
     {
       id: "online",
-      title: "online courses",
+      title: "ONLINE",
     },
   ];
 
@@ -44,12 +44,14 @@ export default function Courses() {
       <h2>Courses</h2>
       <ul>
         {lists.map((item) => (
-          <List
-            title={item.title}
-            active={selected === item.id}
-            setSelected={setSelected}
-            id={item.id}
-          />
+          <li>
+            <List
+              title={item.title}
+              active={selected === item.id}
+              setSelected={setSelected}
+              id={item.id}
+            />
+          </li>
         ))}
       </ul>
       <div className="course-list">

@@ -29,18 +29,18 @@ export default function Nav() {
         <img src={logo} alt="logo" className="logo" />
       </Link>
 
-      {(toggleMenu || screenWidth > 768) && (
+      {(toggleMenu || screenWidth >= 768) && (
         <ul className="nav">
-          <Link
-            className="nav-item"
-            to="home"
-            spy={false}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            Home
-          </Link>
+            <Link
+              className="nav-item"
+              to="home"
+              spy={false}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Home
+            </Link>
           <Link
             className="nav-item"
             to="reviews"
