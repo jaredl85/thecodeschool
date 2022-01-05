@@ -77,4 +77,8 @@ ul {
     width: 100%;
     flex-direction: column;
 }
+
+.course-item {
+  height: auto;
+}
 }
