@@ -30,7 +30,6 @@ function Splash() {
               >
                 Start Learning
               </Link>
-            {/* <span class="splash-btn">Start Learning</span> */}
           </div>
         </div>
       </div>
