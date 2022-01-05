@@ -1,7 +1,7 @@
 .splash-container {
-  min-height: calc(100vh - 60px);
+  /* min-height: calc(100vh - 60px); */
   width: 100%;
-
+  min-height: 100vh;
   background-image: url(../../images/splash.jpg);
   background-position: center;
   background-size: cover;
@@ -11,7 +11,7 @@
 }
 
 .splash {
-  min-height: calc(100vh - 60px);
+  min-height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
   position: relative;
 }
@@ -36,10 +36,7 @@
   letter-spacing: 1.7px;
   font-size: 60px;
   text-align: center;
-  /* top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, 50%); */
+ margin-bottom: 50px;
 }
 
 .splash-title {
