@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-scroll";
 import './splash.css';
 
 function Splash() {
@@ -19,7 +20,17 @@ function Splash() {
                 <div className="splash-title-item">MongoDB</div>
               </div>
             </div>
-            <span class="splash-btn">Start Learning</span>
+            <Link
+              className="splash-btn"
+              to="courses"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >
+                Start Learning
+              </Link>
+            {/* <span class="splash-btn">Start Learning</span> */}
           </div>
         </div>
       </div>
